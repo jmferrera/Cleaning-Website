@@ -1,13 +1,18 @@
 
 
-	html, body{
-		background-color:white;
+	body{
 		margin: 0;
 		padding:0;
 		height:100%;
+		width: 100%;
+		background-image: url("./styles/wood.png");
+		background-color:#55d6aa;
+  		background-repeat:repeat;
+
 	}
 	header {
 		background: #55d6aa;
+		opacity:100%;
 		width: 100%;
 		font-family: 'Corben', Georgia, Times, serif;
 		font-size: 15px;
@@ -15,6 +20,13 @@
 		font-weight: 300;
 		margin: 0;
 		padding:0;
+		background-repeat:repeat;
+		background-image: url("./styles/dark-wood.png");
+		background-image: url("./styles/fresh-snow.png");
+		background-image: url("./styles/asfalt-dark.png");
+		background-image: url("./styles/wood-pattern.png");
+		background-image: url("./styles/wood.png");
+		
 	}
 	header::after{
 		content:'';
@@ -70,12 +82,19 @@
 		grid-gap: 5em;
 		width:70%;
 		margin: 0 auto;
-
 	}
 	
 	.wrapper > div{
-		background:#eee;
+		background:#55d6aa;
 		padding:1em;
+		border-radius: 25px;
+		background-repeat:repeat;
+ 
+    	border-top-left-radius: 15em 1em;
+    	border-bottom-right-radius: 15em 1em;
+		background-image: url("./styles/wood2.png");
+		border:1px solid darkgray;
+
 	}
 	
 	.wrapper > div :nth-child(odd){
