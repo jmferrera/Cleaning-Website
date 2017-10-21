@@ -41,6 +41,7 @@
 		margin-left: 20px;
 		position: relative;
 		margin-right:25px;
+
 	}
 	nav a:hover {
 		color: #000;
@@ -77,6 +78,7 @@
 	}
 
 	.wrapper{
+
 		display:grid;
 		grid-template-rows: 50% 30%;
 		grid-gap: 5em;
@@ -85,6 +87,7 @@
 	}
 	
 	.wrapper > div{
+		margin:top:20px;
 		background:#55d6aa;
 		padding:1em;
 		border-radius: 25px;
