@@ -1,64 +1,104 @@
-body{
-	background-color:#EDEAE5;
-}
-.navigation{
-	position:fixed;
-	width: 100%: 
-	width: auto;
-    float: none;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-size:2px;
-	border-style:solid;
-	border-color:black;
+<style>
 
-}
+	body{
+		background-color:white;
+		margin: 0;
+	}
+	header {
+		background: #55d6aa;
+		width: 100%;
+		font-family: 'Corben', Georgia, Times, serif;
+		font-size: 20px;
+		line-height: 55px;
+		font-weight: 300;
+	}
+	nav li{
+		display: inline-block;
+		margin: 0 35px;
+	}
+	.container{
+		width: 100%;
+		margin: 0 auto;
 
-.navigation li{
-	display:inline;
-	padding:10px;
-	/*top: 0px;
-	left: 50px;
-	padding: 10px;
-	margin: 0px;*/
-	border-color: black;}
-#call_to_action{
-	padding-top:100px;
-	border-size:2px;
-	border-style:solid;
-	border-color:black;
+	}
+
+	.wrapper{
+		display:grid;
+		grid-template-rows: 50% 30%;
+		grid-gap: 5em;
+		width:70%;
+		margin: 0 auto;
+
+	}
 	
-}
-.booking{
-	border-size:2px;
-	border-style:dotted;
-	border-color:black;}
+	.wrapper > div{
+		background:#eee;
+		padding:1em;
+	}
+	
+	.wrapper > div :nth-child(odd){
+		background:#ddd;
 
-.pricing{
-	margin-top: 10px;
-	border-size:2px;
-	border-style:solid;
-	border-color:black;
-	background-color: hsla(0,100%,100%,0.5);
-}
+	}
+	/*.navigation{
+		position:fixed;
+		width: 100%: 
+		width: auto;
+	    float: none;
+	    margin-left: 0px;
+	    margin-right: 0px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	    border-size:2px;
+		border-style:solid;
+		border-color:black;
+
+	}
+
+	.navigation li{
+		display:inline;
+		padding:10px;
+		/*top: 0px;
+		left: 50px;
+		padding: 10px;
+		margin: 0px;
+		border-color: black;}
+	#call_to_action{
+		padding-top:100px;
+		border-size:2px;
+		border-style:solid;
+		border-color:black;
+		
+	}
+	.booking{
+		border-size:2px;
+		border-style:dotted;
+		border-color:black;}
+
+	.pricing{
+		margin-top: 10px;
+		border-size:2px;
+		border-style:solid;
+		border-color:black;
+		background-color: hsla(0,100%,100%,0.5);
+	}
 
 
-.regular_sections{
-	margin-top: 10px;
-	border-size:2px;
-	border-style:solid;
-	border-color:black;
-	background-color:white;
-}			
+	.regular_sections{
+		margin-top: 10px;
+		border-size:2px;
+		border-style:solid;
+		border-color:black;
+		background-color:white;
+	}			
 
-.pricing p{
-	display:inline;
-}
+	.pricing p{
+		display:inline;
+	}
 
-.booking li{
-	display:inline;
-	padding-left: 100px;
-	padding-right: 100px;
-}
+	.booking li{
+		display:inline;
+		padding-left: 100px;
+		padding-right: 100px;
+	}*/
+</style>
