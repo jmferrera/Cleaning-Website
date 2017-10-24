@@ -5,13 +5,15 @@
 		padding:0;
 		height:100%;
 		width: 100%;
-		background-image: url("./styles/wood.png");
-		background-color:#55d6aa;
   		background-repeat:repeat;
+    	background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url("./styles/paper-gray.png");
+    	background-position:center top;
+    	height:350px;
+    	color:white;
 
 	}
 	header {
-		background: #55d6aa;
+		background: white;
 		opacity:100%;
 		width: 100%;
 		font-family: 'Corben', Georgia, Times, serif;
@@ -20,12 +22,13 @@
 		font-weight: 300;
 		margin: 0;
 		padding:0;
-		background-repeat:repeat;
-		background-image: url("./styles/dark-wood.png");
+/*		background-repeat:repeat;*/
+/*		background-image: url("./styles/dark-wood.png");
 		background-image: url("./styles/fresh-snow.png");
 		background-image: url("./styles/asfalt-dark.png");
 		background-image: url("./styles/wood-pattern.png");
-		background-image: url("./styles/wood.png");
+		background-image: url("./styles/wood.png");*/
+
 		
 	}
 	header::after{
@@ -80,22 +83,18 @@
 	.wrapper{
 
 		display:grid;
-		grid-template-rows: 50% 30%;
+		grid-template-rows: 50%;
 		grid-gap: 5em;
-		width:70%;
+		width:40%;
 		margin: 0 auto;
 	}
 	
 	.wrapper > div{
 		margin:top:20px;
-		background:#55d6aa;
+		background:white;
 		padding:1em;
 		border-radius: 25px;
-		background-repeat:repeat;
- 
-    	border-top-left-radius: 15em 1em;
-    	border-bottom-right-radius: 15em 1em;
-		background-image: url("./styles/wood2.png");
+/*		background-image: url("./styles/wood2.png");*/
 		border:1px solid darkgray;
 
 	}
